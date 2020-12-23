@@ -1,6 +1,6 @@
 @media (min-width: 500px) {
   img, svg {
-    max-width: 102px;
+    max-width: 140px;
     min-width: 47px;
     margin: 0px;
     margin-left: 0px;
@@ -81,5 +81,13 @@ header.masthead {
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
